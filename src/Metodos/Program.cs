@@ -29,14 +29,14 @@ public class Program
                     ControlInventario();
                     break;
                 case 3:
-                     Sistemadenotas();
-                     break;
-                 case 0:
+                    Sistemadenotas();
+                    break;
+                case 0:
                     Console.WriteLine("Saliendo del programa...");
                     break;
-                     default:
-                         Console.WriteLine("Opcion invalida. Intente nuevamente.");
-                       break;
+                default:
+                    Console.WriteLine("Opcion invalida. Intente nuevamente.");
+                    break;
             }
         } while (opciones != 0);
     }
@@ -652,12 +652,12 @@ public class Program
     }
 
 
-        public static void Sistemadenotas()
+    public static void Sistemadenotas()
     {
 
-     Console.WriteLine("     =======Sistema de notas de estudiantes=======     ");
+        Console.WriteLine("     =======Sistema de notas de estudiantes=======     ");
 
-     
+
         string[] codigos = new string[25];
         string[] nombres = new string[25];
         double[,] notas = new double[25, 3];
